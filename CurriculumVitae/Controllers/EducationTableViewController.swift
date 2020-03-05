@@ -20,6 +20,7 @@ class EducationTableViewController: UITableViewController {
         navigationController?.navigationBar.largeTitleTextAttributes =
             [NSAttributedString.Key.foregroundColor: UIColor.white]
         navigationItem.title = "Educación"
+        
             
         tableView.register(UINib(nibName: "EducationTableViewCell", bundle: nil), forCellReuseIdentifier: educationCellIdentifier)
         tableView.allowsSelection = false
