@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD3443B524114FF9000A315A /* EducationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3443B324114FF9000A315A /* EducationTableViewCell.swift */; };
+		AD3443B624114FF9000A315A /* EducationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3443B424114FF9000A315A /* EducationTableViewCell.xib */; };
+		AD3443BA2411561E000A315A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3443B92411561E000A315A /* Models.swift */; };
+		AD3443BC24115671000A315A /* FastConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3443BB24115671000A315A /* FastConstraints.swift */; };
 		AD9A6E0023F46A99000289BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A6DFF23F46A99000289BC /* AppDelegate.swift */; };
 		AD9A6E0223F46A99000289BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A6E0123F46A99000289BC /* SceneDelegate.swift */; };
 		AD9A6E0423F46A99000289BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A6E0323F46A99000289BC /* ViewController.swift */; };
 		AD9A6E0723F46A99000289BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9A6E0523F46A99000289BC /* Main.storyboard */; };
 		AD9A6E0923F46A9D000289BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9A6E0823F46A9D000289BC /* Assets.xcassets */; };
 		AD9A6E0C23F46A9D000289BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9A6E0A23F46A9D000289BC /* LaunchScreen.storyboard */; };
+		ADF15F79241080FC00E7F2C6 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF15F77241080FC00E7F2C6 /* MeViewController.swift */; };
+		ADF15F7A241080FC00E7F2C6 /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF15F78241080FC00E7F2C6 /* MeViewController.xib */; };
+		ADF15F7C2410B9C800E7F2C6 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF15F7B2410B9C800E7F2C6 /* TabBarViewController.swift */; };
+		ADF15F7F2410BA8300E7F2C6 /* EducationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF15F7D2410BA8300E7F2C6 /* EducationTableViewController.swift */; };
+		ADF15F802410BA8300E7F2C6 /* EducationTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF15F7E2410BA8300E7F2C6 /* EducationTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD3443B324114FF9000A315A /* EducationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationTableViewCell.swift; sourceTree = "<group>"; };
+		AD3443B424114FF9000A315A /* EducationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationTableViewCell.xib; sourceTree = "<group>"; };
+		AD3443B92411561E000A315A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AD3443BB24115671000A315A /* FastConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastConstraints.swift; sourceTree = "<group>"; };
 		AD9A6DFC23F46A99000289BC /* CurriculumVitae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurriculumVitae.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9A6DFF23F46A99000289BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD9A6E0123F46A99000289BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,11 @@
 		AD9A6E0823F46A9D000289BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD9A6E0B23F46A9D000289BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD9A6E0D23F46A9D000289BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF15F77241080FC00E7F2C6 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		ADF15F78241080FC00E7F2C6 /* MeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
+		ADF15F7B2410B9C800E7F2C6 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		ADF15F7D2410BA8300E7F2C6 /* EducationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationTableViewController.swift; sourceTree = "<group>"; };
+		ADF15F7E2410BA8300E7F2C6 /* EducationTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD3443B7241155C8000A315A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD3443B92411561E000A315A /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD3443B8241155DF000A315A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AD3443BB24115671000A315A /* FastConstraints.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		AD9A6DF323F46A99000289BC = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +90,10 @@
 		AD9A6DFE23F46A99000289BC /* CurriculumVitae */ = {
 			isa = PBXGroup;
 			children = (
+				ADF15F75241080B100E7F2C6 /* Controllers */,
+				ADF15F76241080BB00E7F2C6 /* Views */,
+				AD3443B7241155C8000A315A /* Models */,
+				AD3443B8241155DF000A315A /* Extension */,
 				AD9A6DFF23F46A99000289BC /* AppDelegate.swift */,
 				AD9A6E0123F46A99000289BC /* SceneDelegate.swift */,
 				AD9A6E0323F46A99000289BC /* ViewController.swift */,
@@ -65,6 +103,27 @@
 				AD9A6E0D23F46A9D000289BC /* Info.plist */,
 			);
 			path = CurriculumVitae;
+			sourceTree = "<group>";
+		};
+		ADF15F75241080B100E7F2C6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADF15F77241080FC00E7F2C6 /* MeViewController.swift */,
+				ADF15F78241080FC00E7F2C6 /* MeViewController.xib */,
+				ADF15F7B2410B9C800E7F2C6 /* TabBarViewController.swift */,
+				ADF15F7D2410BA8300E7F2C6 /* EducationTableViewController.swift */,
+				ADF15F7E2410BA8300E7F2C6 /* EducationTableViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ADF15F76241080BB00E7F2C6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD3443B324114FF9000A315A /* EducationTableViewCell.swift */,
+				AD3443B424114FF9000A315A /* EducationTableViewCell.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +185,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD9A6E0C23F46A9D000289BC /* LaunchScreen.storyboard in Resources */,
+				ADF15F802410BA8300E7F2C6 /* EducationTableViewController.xib in Resources */,
+				AD3443B624114FF9000A315A /* EducationTableViewCell.xib in Resources */,
 				AD9A6E0923F46A9D000289BC /* Assets.xcassets in Resources */,
+				ADF15F7A241080FC00E7F2C6 /* MeViewController.xib in Resources */,
 				AD9A6E0723F46A99000289BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +201,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD9A6E0423F46A99000289BC /* ViewController.swift in Sources */,
+				AD3443B524114FF9000A315A /* EducationTableViewCell.swift in Sources */,
 				AD9A6E0023F46A99000289BC /* AppDelegate.swift in Sources */,
+				AD3443BA2411561E000A315A /* Models.swift in Sources */,
+				ADF15F79241080FC00E7F2C6 /* MeViewController.swift in Sources */,
+				ADF15F7C2410B9C800E7F2C6 /* TabBarViewController.swift in Sources */,
+				ADF15F7F2410BA8300E7F2C6 /* EducationTableViewController.swift in Sources */,
 				AD9A6E0223F46A99000289BC /* SceneDelegate.swift in Sources */,
+				AD3443BC24115671000A315A /* FastConstraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +353,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YDAEX93RK;
 				INFOPLIST_FILE = CurriculumVitae/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -293,7 +362,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mx.pedrovazquez.CurriculumVitae;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YDAEX93RK;
 				INFOPLIST_FILE = CurriculumVitae/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +380,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mx.pedrovazquez.CurriculumVitae;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
