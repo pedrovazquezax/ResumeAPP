@@ -10,23 +10,24 @@ import UIKit
 
 class EducationTableViewController: UITableViewController {
     let educationCellIdentifier = "educationCell"
+    
+    
         
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationController?.navigationBar.prefersLargeTitles = true
-        navigationController?.navigationBar.backgroundColor = UIColor.init(red: 4/255, green: 61/255, blue: 82/255, alpha: 1)
-        navigationController?.navigationBar.barTintColor = UIColor.init(red: 4/255, green: 61/255, blue: 82/255, alpha: 1)
-        navigationController?.navigationBar.tintColor = UIColor.init(red: 4/255, green: 61/255, blue: 82/255, alpha: 1)
-        navigationController?.navigationBar.largeTitleTextAttributes =
-            [NSAttributedString.Key.foregroundColor: UIColor.white]
         navigationItem.title = "Educación"
-        
-            
+        view.backgroundColor = UIColor.systemBackground
         tableView.register(UINib(nibName: "EducationTableViewCell", bundle: nil), forCellReuseIdentifier: educationCellIdentifier)
         tableView.allowsSelection = false
     }
-    override func viewDidAppear(_ animated: Bool) {
-        navigationController?.navigationBar.barStyle = .black
+    
+//    override func viewDidAppear(_ animated: Bool) {
+//        navigationController?.navigationBar.barStyle = .black
+//    }
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.navigationBar.barStyle = .default
+        self.setNeedsStatusBarAppearanceUpdate()
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -51,8 +52,6 @@ class EducationTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: educationCellIdentifier, for: indexPath) as! EducationTableViewCell
         cell.cellData = educationSections[indexPath.section].education[indexPath.row]
-        // Configure the cell...
-
         return cell
     }
 

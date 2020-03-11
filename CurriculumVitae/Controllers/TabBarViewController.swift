@@ -14,10 +14,7 @@ class TabBarViewController: UITabBarController {
           super.viewDidLoad()
 
           // Do any additional setup after loading the view.
-          
-//                  let controller = BillboardCollectionViewController(collectionViewLayout: UICollectionViewFlowLayout())
           let meController = MeViewController()
-//          let meViewController = UINavigationController(rootViewController: meController)
           meController.tabBarItem.image = UIImage(named: "me")
           meController.tabBarItem.title = "Me"
           
@@ -25,14 +22,38 @@ class TabBarViewController: UITabBarController {
           let educationTableViewController = UINavigationController(rootViewController: educationController)
           educationTableViewController.tabBarItem.image = UIImage(named: "education")
           educationTableViewController.tabBarItem.title = "Educación"
-
+        
+         let skillsController =
+            SkillsCollectionViewController(collectionViewLayout: UICollectionViewFlowLayout())
+         let skillsViewController = UINavigationController(rootViewController: skillsController)
+         skillsViewController.tabBarItem.image = UIImage(named: "skills")
+        skillsViewController.tabBarItem.title = "Habilidades"
+        
+        
+        let awardsController =
+            AwardsCollectionViewController(collectionViewLayout: UICollectionViewFlowLayout())
+         let awardsViewController = UINavigationController(rootViewController: awardsController)
+         awardsViewController.tabBarItem.image = UIImage(named: "awards")
+        awardsViewController.tabBarItem.title = "Premios"
+        
+        let test =  testsViewController()
+        test.tabBarItem.title = "test"
+        
                   
                 
 
             tabBar.tintColor = UIColor.init(red: 4/255, green: 61/255, blue: 82/255, alpha: 1)
-            viewControllers = [meController,educationTableViewController]
+            viewControllers = [meController,educationTableViewController,skillsViewController,awardsViewController,test]
 
       }
+
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.navigationBar.barStyle = .default
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 
     
     

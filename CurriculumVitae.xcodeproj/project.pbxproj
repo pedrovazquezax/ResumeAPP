@@ -7,16 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD33FB7B241585E70055BC1A /* AwardsSectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD33FB79241585E70055BC1A /* AwardsSectionCollectionViewCell.swift */; };
+		AD33FB7C241585E70055BC1A /* AwardsSectionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD33FB7A241585E70055BC1A /* AwardsSectionCollectionViewCell.xib */; };
+		AD33FB7F241585F70055BC1A /* AwardsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD33FB7D241585F70055BC1A /* AwardsCollectionViewCell.swift */; };
+		AD33FB80241585F70055BC1A /* AwardsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD33FB7E241585F70055BC1A /* AwardsCollectionViewCell.xib */; };
+		AD33FB8324158C270055BC1A /* ProyectsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD33FB8124158C270055BC1A /* ProyectsCollectionViewCell.swift */; };
+		AD33FB8424158C270055BC1A /* ProyectsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD33FB8224158C270055BC1A /* ProyectsCollectionViewCell.xib */; };
+		AD33FB872415E6040055BC1A /* ProyectsSectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD33FB852415E6040055BC1A /* ProyectsSectionCollectionViewCell.swift */; };
+		AD33FB882415E6040055BC1A /* ProyectsSectionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD33FB862415E6040055BC1A /* ProyectsSectionCollectionViewCell.xib */; };
 		AD3443B524114FF9000A315A /* EducationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3443B324114FF9000A315A /* EducationTableViewCell.swift */; };
 		AD3443B624114FF9000A315A /* EducationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3443B424114FF9000A315A /* EducationTableViewCell.xib */; };
 		AD3443BA2411561E000A315A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3443B92411561E000A315A /* Models.swift */; };
 		AD3443BC24115671000A315A /* FastConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3443BB24115671000A315A /* FastConstraints.swift */; };
+		AD36BC5C24118252007C41D1 /* SkillsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD36BC5A24118252007C41D1 /* SkillsCollectionViewController.swift */; };
+		AD36BC5D24118252007C41D1 /* SkillsCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD36BC5B24118252007C41D1 /* SkillsCollectionViewController.xib */; };
+		AD36BC60241182CA007C41D1 /* SkillsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD36BC5E241182CA007C41D1 /* SkillsCollectionViewCell.swift */; };
+		AD36BC61241182CA007C41D1 /* SkillsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD36BC5F241182CA007C41D1 /* SkillsCollectionViewCell.xib */; };
+		AD36BC6424118439007C41D1 /* SkillsSectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD36BC6224118439007C41D1 /* SkillsSectionCollectionViewCell.swift */; };
+		AD36BC6524118439007C41D1 /* SkillsSectionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD36BC6324118439007C41D1 /* SkillsSectionCollectionViewCell.xib */; };
+		AD421E8A2419728300669ACC /* testsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD421E882419728300669ACC /* testsViewController.swift */; };
+		AD421E8B2419728300669ACC /* testsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD421E892419728300669ACC /* testsViewController.xib */; };
 		AD9A6E0023F46A99000289BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A6DFF23F46A99000289BC /* AppDelegate.swift */; };
 		AD9A6E0223F46A99000289BC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A6E0123F46A99000289BC /* SceneDelegate.swift */; };
 		AD9A6E0423F46A99000289BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9A6E0323F46A99000289BC /* ViewController.swift */; };
 		AD9A6E0723F46A99000289BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9A6E0523F46A99000289BC /* Main.storyboard */; };
 		AD9A6E0923F46A9D000289BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9A6E0823F46A9D000289BC /* Assets.xcassets */; };
 		AD9A6E0C23F46A9D000289BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9A6E0A23F46A9D000289BC /* LaunchScreen.storyboard */; };
+		ADEAF80F2411B036006211A5 /* AwardsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEAF80D2411B036006211A5 /* AwardsCollectionViewController.swift */; };
+		ADEAF8102411B036006211A5 /* AwardsCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADEAF80E2411B036006211A5 /* AwardsCollectionViewController.xib */; };
 		ADF15F79241080FC00E7F2C6 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF15F77241080FC00E7F2C6 /* MeViewController.swift */; };
 		ADF15F7A241080FC00E7F2C6 /* MeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF15F78241080FC00E7F2C6 /* MeViewController.xib */; };
 		ADF15F7C2410B9C800E7F2C6 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF15F7B2410B9C800E7F2C6 /* TabBarViewController.swift */; };
@@ -25,10 +43,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD33FB79241585E70055BC1A /* AwardsSectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsSectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD33FB7A241585E70055BC1A /* AwardsSectionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AwardsSectionCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD33FB7D241585F70055BC1A /* AwardsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD33FB7E241585F70055BC1A /* AwardsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AwardsCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD33FB8124158C270055BC1A /* ProyectsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectsCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD33FB8224158C270055BC1A /* ProyectsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProyectsCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD33FB852415E6040055BC1A /* ProyectsSectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectsSectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD33FB862415E6040055BC1A /* ProyectsSectionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProyectsSectionCollectionViewCell.xib; sourceTree = "<group>"; };
 		AD3443B324114FF9000A315A /* EducationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationTableViewCell.swift; sourceTree = "<group>"; };
 		AD3443B424114FF9000A315A /* EducationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EducationTableViewCell.xib; sourceTree = "<group>"; };
 		AD3443B92411561E000A315A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		AD3443BB24115671000A315A /* FastConstraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastConstraints.swift; sourceTree = "<group>"; };
+		AD36BC5A24118252007C41D1 /* SkillsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsCollectionViewController.swift; sourceTree = "<group>"; };
+		AD36BC5B24118252007C41D1 /* SkillsCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkillsCollectionViewController.xib; sourceTree = "<group>"; };
+		AD36BC5E241182CA007C41D1 /* SkillsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD36BC5F241182CA007C41D1 /* SkillsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkillsCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD36BC6224118439007C41D1 /* SkillsSectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsSectionCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD36BC6324118439007C41D1 /* SkillsSectionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkillsSectionCollectionViewCell.xib; sourceTree = "<group>"; };
+		AD421E882419728300669ACC /* testsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testsViewController.swift; sourceTree = "<group>"; };
+		AD421E892419728300669ACC /* testsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = testsViewController.xib; sourceTree = "<group>"; };
 		AD9A6DFC23F46A99000289BC /* CurriculumVitae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurriculumVitae.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9A6DFF23F46A99000289BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD9A6E0123F46A99000289BC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +71,8 @@
 		AD9A6E0823F46A9D000289BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD9A6E0B23F46A9D000289BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD9A6E0D23F46A9D000289BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADEAF80D2411B036006211A5 /* AwardsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsCollectionViewController.swift; sourceTree = "<group>"; };
+		ADEAF80E2411B036006211A5 /* AwardsCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AwardsCollectionViewController.xib; sourceTree = "<group>"; };
 		ADF15F77241080FC00E7F2C6 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		ADF15F78241080FC00E7F2C6 /* MeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeViewController.xib; sourceTree = "<group>"; };
 		ADF15F7B2410B9C800E7F2C6 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
@@ -95,10 +131,10 @@
 				AD3443B7241155C8000A315A /* Models */,
 				AD3443B8241155DF000A315A /* Extension */,
 				AD9A6DFF23F46A99000289BC /* AppDelegate.swift */,
+				AD9A6E0823F46A9D000289BC /* Assets.xcassets */,
 				AD9A6E0123F46A99000289BC /* SceneDelegate.swift */,
 				AD9A6E0323F46A99000289BC /* ViewController.swift */,
 				AD9A6E0523F46A99000289BC /* Main.storyboard */,
-				AD9A6E0823F46A9D000289BC /* Assets.xcassets */,
 				AD9A6E0A23F46A9D000289BC /* LaunchScreen.storyboard */,
 				AD9A6E0D23F46A9D000289BC /* Info.plist */,
 			);
@@ -108,11 +144,17 @@
 		ADF15F75241080B100E7F2C6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				ADF15F7B2410B9C800E7F2C6 /* TabBarViewController.swift */,
 				ADF15F77241080FC00E7F2C6 /* MeViewController.swift */,
 				ADF15F78241080FC00E7F2C6 /* MeViewController.xib */,
-				ADF15F7B2410B9C800E7F2C6 /* TabBarViewController.swift */,
 				ADF15F7D2410BA8300E7F2C6 /* EducationTableViewController.swift */,
 				ADF15F7E2410BA8300E7F2C6 /* EducationTableViewController.xib */,
+				AD36BC5A24118252007C41D1 /* SkillsCollectionViewController.swift */,
+				AD36BC5B24118252007C41D1 /* SkillsCollectionViewController.xib */,
+				ADEAF80D2411B036006211A5 /* AwardsCollectionViewController.swift */,
+				ADEAF80E2411B036006211A5 /* AwardsCollectionViewController.xib */,
+				AD421E882419728300669ACC /* testsViewController.swift */,
+				AD421E892419728300669ACC /* testsViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -122,6 +164,18 @@
 			children = (
 				AD3443B324114FF9000A315A /* EducationTableViewCell.swift */,
 				AD3443B424114FF9000A315A /* EducationTableViewCell.xib */,
+				AD36BC5E241182CA007C41D1 /* SkillsCollectionViewCell.swift */,
+				AD36BC5F241182CA007C41D1 /* SkillsCollectionViewCell.xib */,
+				AD36BC6224118439007C41D1 /* SkillsSectionCollectionViewCell.swift */,
+				AD36BC6324118439007C41D1 /* SkillsSectionCollectionViewCell.xib */,
+				AD33FB79241585E70055BC1A /* AwardsSectionCollectionViewCell.swift */,
+				AD33FB7A241585E70055BC1A /* AwardsSectionCollectionViewCell.xib */,
+				AD33FB7D241585F70055BC1A /* AwardsCollectionViewCell.swift */,
+				AD33FB7E241585F70055BC1A /* AwardsCollectionViewCell.xib */,
+				AD33FB8124158C270055BC1A /* ProyectsCollectionViewCell.swift */,
+				AD33FB8224158C270055BC1A /* ProyectsCollectionViewCell.xib */,
+				AD33FB852415E6040055BC1A /* ProyectsSectionCollectionViewCell.swift */,
+				AD33FB862415E6040055BC1A /* ProyectsSectionCollectionViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,11 +238,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD36BC6524118439007C41D1 /* SkillsSectionCollectionViewCell.xib in Resources */,
 				AD9A6E0C23F46A9D000289BC /* LaunchScreen.storyboard in Resources */,
 				ADF15F802410BA8300E7F2C6 /* EducationTableViewController.xib in Resources */,
+				AD33FB882415E6040055BC1A /* ProyectsSectionCollectionViewCell.xib in Resources */,
+				AD33FB8424158C270055BC1A /* ProyectsCollectionViewCell.xib in Resources */,
 				AD3443B624114FF9000A315A /* EducationTableViewCell.xib in Resources */,
+				ADEAF8102411B036006211A5 /* AwardsCollectionViewController.xib in Resources */,
+				AD33FB7C241585E70055BC1A /* AwardsSectionCollectionViewCell.xib in Resources */,
+				AD33FB80241585F70055BC1A /* AwardsCollectionViewCell.xib in Resources */,
 				AD9A6E0923F46A9D000289BC /* Assets.xcassets in Resources */,
+				AD36BC5D24118252007C41D1 /* SkillsCollectionViewController.xib in Resources */,
 				ADF15F7A241080FC00E7F2C6 /* MeViewController.xib in Resources */,
+				AD36BC61241182CA007C41D1 /* SkillsCollectionViewCell.xib in Resources */,
+				AD421E8B2419728300669ACC /* testsViewController.xib in Resources */,
 				AD9A6E0723F46A99000289BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,12 +263,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD33FB872415E6040055BC1A /* ProyectsSectionCollectionViewCell.swift in Sources */,
 				AD9A6E0423F46A99000289BC /* ViewController.swift in Sources */,
 				AD3443B524114FF9000A315A /* EducationTableViewCell.swift in Sources */,
+				AD36BC6424118439007C41D1 /* SkillsSectionCollectionViewCell.swift in Sources */,
 				AD9A6E0023F46A99000289BC /* AppDelegate.swift in Sources */,
+				AD36BC60241182CA007C41D1 /* SkillsCollectionViewCell.swift in Sources */,
 				AD3443BA2411561E000A315A /* Models.swift in Sources */,
+				AD33FB8324158C270055BC1A /* ProyectsCollectionViewCell.swift in Sources */,
+				ADEAF80F2411B036006211A5 /* AwardsCollectionViewController.swift in Sources */,
 				ADF15F79241080FC00E7F2C6 /* MeViewController.swift in Sources */,
+				AD33FB7F241585F70055BC1A /* AwardsCollectionViewCell.swift in Sources */,
+				AD33FB7B241585E70055BC1A /* AwardsSectionCollectionViewCell.swift in Sources */,
 				ADF15F7C2410B9C800E7F2C6 /* TabBarViewController.swift in Sources */,
+				AD36BC5C24118252007C41D1 /* SkillsCollectionViewController.swift in Sources */,
+				AD421E8A2419728300669ACC /* testsViewController.swift in Sources */,
 				ADF15F7F2410BA8300E7F2C6 /* EducationTableViewController.swift in Sources */,
 				AD9A6E0223F46A99000289BC /* SceneDelegate.swift in Sources */,
 				AD3443BC24115671000A315A /* FastConstraints.swift in Sources */,
